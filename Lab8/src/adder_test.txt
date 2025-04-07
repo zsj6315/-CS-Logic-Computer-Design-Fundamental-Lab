@@ -1,0 +1,2 @@
+iverilog -o .\build\wave.out .\src\Adder.v .\src\testbench_adder.v
+vvp -n .\build\wave.out
