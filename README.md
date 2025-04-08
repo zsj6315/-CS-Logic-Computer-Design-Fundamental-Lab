@@ -1,7 +1,7 @@
-Sorry for inadequate comments, see your own materials for detailed explanations.
+抱歉我的注释不够充分，详细解释请参阅自己的资料。
 
-Take Lab7 for example, and refer to the following website to discover what environment I use.
+以 Lab7 为例，请参考下面的博客，了解我使用的环境以及 Lab 文件夹的代码使用方式。
 
-Node that Lab 4~6 haven't been checked yet since they're coded in ISE first, and after Lab7 I started to use the way of VS code + Icarus verilog + Vivado tcl. You can try Lab 7 first and set the former project right yourself.
+Lab 4~6 的代码还没有检查，因为是先在 ISE 中写的项目，Lab7 之后才开始使用 VS code + Icarus verilog + Vivado tcl 的方式。
 
-[My Blog](https://www.cnblogs.com/zsj6315/p/18806469/verilog_light_compile_simulation_synthesis_implementation_program)
+恳请对我的项目提出批评建议，也欢迎一同完善。
