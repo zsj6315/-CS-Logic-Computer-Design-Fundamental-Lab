@@ -10,8 +10,8 @@ set_property SEVERITY {Warning} [get_drc_checks UCIO-1]
 
 # 2. add files
 add_files [list \
-    src\LampCtrl.v \
-    src\74LS138.v \
+    src/LampCtrl.v \
+    src/74LS138.v \
 ]
 
 # 3. constraints

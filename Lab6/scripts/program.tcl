@@ -24,7 +24,7 @@ if {[llength $hw_devices] == 0} {
 set hw_device [lindex $hw_devices 0] ;
 
 # copy .bit path
-set bitstream_file "vivado_project/fpga_project.runs/impl_1/top.bit"
+set bitstream_file "vivado_project/fpga_project.runs/impl_1/controller.bit"
 if {![file exists $bitstream_file]} {
     puts "ERROR: Bitstream file not found: $bitstream_file"
     exit
