@@ -1,2 +1,2 @@
-iverilog -o wave.out MyMC14495.v testbench.v
-vvp -n wave.out
+iverilog -o ./build/wave.out ./src/MyMC14495.v ./src/testbench.v
+vvp -n ./build/wave.out

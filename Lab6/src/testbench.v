@@ -30,7 +30,7 @@ initial begin
 end
 
 initial begin
-    $dumpfile("tb_MyMC14495.vcd");
+    $dumpfile("./build/wave.vcd");
     $dumpvars(0, tb_MyMC14495);
     #1000 $finish;
 end
