@@ -48,10 +48,10 @@ module create_number (
     assign c2[3 : 1] = 3'b000;
     assign c3[3 : 1] = 3'b000;
 
-    Adder_4b A0(.op(s), .A(_1), .B(m0), .S(n0), .Co(c1[0]));
-    Adder_4b A1(.op(s), .A(c1), .B(m1), .S(n1), .Co(c2[0]));
-    Adder_4b A2(.op(s), .A(c2), .B(m2), .S(n2), .Co(c3[0]));
-    Adder_4b A3(.op(s), .A(c3), .B(m3), .S(n3), .Co(r));
+    Adder_4b A0(.op(s), .B(_1), .A(m0), .S(n0), .Co(c1[0]));
+    Adder_4b A1(.op(s), .B(c1), .A(m1), .S(n1), .Co(c2[0]));
+    Adder_4b A2(.op(s), .B(c2), .A(m2), .S(n2), .Co(c3[0]));
+    Adder_4b A3(.op(s), .B(c3), .A(m3), .S(n3), .Co(r));
     
 
     initial begin

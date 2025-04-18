@@ -14,7 +14,7 @@ always begin
 end
 
 initial begin
-    $dumpfile("./build/Dlatch.vcd");
+    $dumpfile("./build/Dflipflop.vcd");
     $dumpvars(0, tb_Latch);
     #90000 $finish;
 end
@@ -28,8 +28,8 @@ initial begin
 end
 
 // SR_FlipFlop UUT(.S(S), .R(R), .C(C), .Q(Q), .Qn(Qn));
-// T_FlipFlop UUT(.T(D), .C(C), .Q(Q), .Qn(Qn));
-D_Latch UUT(.C(C), .D(D), .Q(Q), .Qn(Qn));
+D_FlipFlop UUT(.D(D), .C(C), .Q(Q), .Qn(Qn));
+// D_Latch UUT(.C(C), .D(D), .Q(Q), .Qn(Qn));
 // This place choose which to test
 
 always @(posedge clk) begin

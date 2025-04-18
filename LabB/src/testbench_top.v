@@ -13,7 +13,7 @@ module uut;
     initial begin
         SW = 8'hFF;
         clk = 0;
-        s = 0;
+        s = 1;
     end
 
     top uut0(.s(s), .clk(clk), .SW(SW), .AN(AN), .SEGMENT(SEGMENT), .BTNX4(BTNX4), .Ring(Ring));
@@ -23,7 +23,7 @@ module uut;
     end
 
     initial begin
-        #50000 s = 0;
+        #50000 s = 1;
     end
 
     initial begin
